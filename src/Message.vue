@@ -17,7 +17,7 @@
           </span>
           {{ title }}
         </div>
-        <div class="message-body" v-html v-if="message">{{ message }}</div>
+        <div class="message-body" v-html="message" v-if="message"></div>
       </article>
     </div>
   </transition>
