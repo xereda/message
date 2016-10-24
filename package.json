@@ -1,6 +1,6 @@
 {
   "name": "xereda-vue-bulma-message",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Message component for Vue Bulma",
   "main": "src/Message.vue",
   "peerDependencies": {
@@ -27,5 +27,6 @@
   "homepage": "https://github.com/xereda/xereda-vue-bulma-message#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "dependencies": {}
 }
