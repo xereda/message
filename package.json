@@ -1,6 +1,6 @@
 {
   "name": "xereda-vue-bulma-message",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Message component for Vue Bulma",
   "main": "src/Message.vue",
   "peerDependencies": {
