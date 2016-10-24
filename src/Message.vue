@@ -17,7 +17,7 @@
           </span>
           {{ title }}
         </div>
-        <div class="message-body" v-if="message">{{ message }}</div>
+        <div class="message-body" v-html v-if="message">{{ message }}</div>
       </article>
     </div>
   </transition>
@@ -140,27 +140,26 @@ export default {
   position: fixed;
   top: 15px;
   left: 0;
-  width: 100%;
-  z-index: 1024 + 234;
+  width: 100% !important;
+  z-index: 99999999 !important;
   pointer-events: none;
   transform: translate3d(0, 0, 0);
-
   .message-box {
     position: absolute;
-    left: 50%;
+    width: 100% !important;
+    left: 0% !important;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     pointer-events: all;
   }
-
   .message {
     position: relative;
-    right: 50%;
-
+    right: 0% !important;
+    margin-left: 20% !important;
+    margin-right: 20px !important;
     .delete {
       float: right;
     }
-
     .icon {
       vertical-align: middle;
     }
