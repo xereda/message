@@ -1,13 +1,16 @@
 {
-  "name": "vue-bulma-message",
-  "version": "1.1.0",
+  "name": "xereda-vue-bulma-message",
+  "version": "2.0.0",
   "description": "Message component for Vue Bulma",
   "main": "src/Message.vue",
   "peerDependencies": {
     "bulma": "^0.2",
     "vue": ">=2"
   },
-  "repository": "vue-bulma/message",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xereda/xereda-vue-bulma-message"
+  },
   "keywords": [
     "vue",
     "bulma",
@@ -16,6 +19,13 @@
     "vue-bulma-message",
     "message"
   ],
-  "author": "Fangdun Cai <cfddream@gmail.com>",
-  "license": "MIT"
+  "author": "Jackson Ricardo Schroeder <jacksonrs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xereda/xereda-vue-bulma-message/issues"
+  },
+  "homepage": "https://github.com/xereda/xereda-vue-bulma-message#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

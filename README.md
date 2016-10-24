@@ -6,7 +6,7 @@ Message component for Vue Bulma.
 ## Installation
 
 ```
-$ npm install vue-bulma-message --save
+$ npm install xereda-vue-bulma-message --save
 ```
 
 
@@ -79,8 +79,3 @@ export default {
 ![](https://img.shields.io/badge/status-stable-green.svg)
 
 ---
-
-> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;
-> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;
-> Twitter [@_fundon](https://twitter.com/_fundon)
-
